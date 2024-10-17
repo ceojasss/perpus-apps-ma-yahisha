@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf");
+}
+
+
+/* Produk */
+
+
+
+/*finsih*/
+.btn-primary{
+  background-color: #267127!important;
+  border: none;
+  border-radius: 3px!important;
+  color: #FFFFFF;
+}
+.btn-primary:active{
+  transform: translateY(4px);
+  outline: 0px!important;
+  color: #333!important;
+}
+
+.btn-primary:hover{
+  color: #FFFFFF;
+}
+
+body{
+  font-family: "Lato";
+  background-color: #022D41;
+}
+.wrapper {
+ margin-top: 80px;
+ margin-bottom: 80px;
+}
+.color{
+  color:#999;
+  text-decoration: none;
+  font-size: 11pt;
+}
+.color:hover{
+  text-decoration: none;
+  color:#fff;
+  -moz-transition: all 0.9s;
+  -webkit-transition: all 0.5s;
+}
+.identify{
+  color:#DAECF3;
+  font-size: 27pt;
+}
+
+.form-signin {
+  max-width: 500px;
+  padding: 15px 35px 10px;
+  margin: 0 auto;
+  /*background-color: rgba(37, 35, 35, 0.9);*/
+  /*border: 1px solid rgba(0,0,0,0.8);*/
+  /*box-shadow: 0 0 0 rgba(0,0,0,0.5) inset, 0 0 10px rgba(0,0,0,0.5);*/
+}
+	.checkbox {
+	  font-weight: normal;
+	}
+	.form-control {
+	  position: relative;
+	  font-size: 15px;
+	  height: auto;
+	  padding: 10px;
+    border-radius: 0px!important;
+		@include box-sizing(border-box);
+		&:focus {
+		  z-index: 2;
+		}
+	}
+	input[type="text"] {
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: -1px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        background-color: transparent;
+        border: #f1f1f1 solid 1px;
+        /*font-weight: bold;*/
+        font-size: 12pt;
+        color: #fff;
+      }
+
+      input[type="password"] {
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        background-color: transparent;
+        border: #f1f1f1 solid 1px;
+        /*font-weight: bold;*/
+        font-size: 12pt;
+        color: #fff;
+      }
+
+      input[type="email"] {
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        background-color: transparent;
+        border: #f1f1f1 solid 1px;
+        /*font-weight: bold;*/
+        font-size: 12pt;
+        color: #fff;
+      }
+      input[type="text"], input[type="password"], input[type="email"]:active{
+        /*border: #fff solid 2px;*/
+        -webkit-transition: all 0.9s;
+        -moz-transition: all 0.9s;
+      }
+      input[type="text"]:focus,  input[type="email"]:focus,
+      input[type="password"]:focus,
+      .uneditable-input:focus {
+      border-color: #fff;
+      box-shadow: 0 1px 1px #fff inset, 0 0 1px #fff;
+      outline: 0 none;
+      }
+
+      ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+          color:    #f1f1f1!important;
+      }
+      :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+         color:    #f1f1f1!important;
+         opacity:  1;
+      }
+      ::-moz-placeholder { /* Mozilla Firefox 19+ */
+         color:    #f1f1f1!important;
+         opacity:  1;
+      }
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+         color:    #f1f1f1!important;
+      }
+      ::-ms-input-placeholder { /* Microsoft Edge */
+         color:    #f1f1f1!important;
+      }
